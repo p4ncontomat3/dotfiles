@@ -1,0 +1,53 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x12141e'
+    foreground: '0xff00d7'
+
+  # Normal colors
+  normal:
+    black:   '0x2c001c'
+    red:     '0x710044'
+    green:   '0xa20062'
+    yellow:  '0xd30080'
+    blue:    '0xfe079c'
+    magenta: '0xfe37af'
+    cyan:    '0xfe68c3'
+    white:   '0xfe99d6'
+
+  # Bright colors
+  bright:
+    black:   '0x8c1c59'
+    red:     '0xfa008a'
+    green:   '0xef4782'
+    yellow:  '0xcc007d'
+    blue:    '0xff90d4'
+    magenta: '0xff5fdd'
+    cyan:    '0xe05cad'
+    white:   '0xd51d98'
+
+# Font
+font:
+  size: 11
+  normal:
+    family: Hack Nerd Font Mono
+
+# Cursor Blinking
+cursor:
+  style: Beam
+  unfocused_hollow: false
+
+# Scrollback
+scrolling:
+  history: 10000
+
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - -l
+#    - -c
+#    - "tmux"
+
+# Terminal Title
+window:
+  title: 'owoterm'
